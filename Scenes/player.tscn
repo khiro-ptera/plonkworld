@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbfpb2lrlydir"]
+
+[ext_resource type="SpriteFrames" uid="uid://d0wmxjij74vnh" path="res://Assets/GodotElements/character_as2d.tres" id="1_8wwvf"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_tu0lk"]
+[ext_resource type="Texture2D" uid="uid://ba0xsr1s6n8me" path="res://Assets/Sprites/ball1.png" id="1_x4x4x"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h6ik6"]
+radius = 50.1597
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_tu0lk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_x4x4x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_h6ik6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_8wwvf")
+animation = &"move_0"

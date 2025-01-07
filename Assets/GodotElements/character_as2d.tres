@@ -1,0 +1,65 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://d0wmxjij74vnh"]
+
+[ext_resource type="Texture2D" uid="uid://ktdumy0grdwg" path="res://Assets/Faces/face7.png" id="1_jy5gi"]
+[ext_resource type="Texture2D" uid="uid://cr3ah8rq8f773" path="res://Assets/Faces/face2.png" id="1_xhnuw"]
+[ext_resource type="Texture2D" uid="uid://ckwl3r6nal666" path="res://Assets/Faces/face7a.png" id="2_5piv6"]
+[ext_resource type="Texture2D" uid="uid://buvs2g1s4x1jx" path="res://Assets/Faces/face7b.png" id="3_h54rl"]
+[ext_resource type="Texture2D" uid="uid://jrcoi46htlex" path="res://Assets/Faces/face1.png" id="4_3mv1d"]
+[ext_resource type="Texture2D" uid="uid://c64uiwv50dm2f" path="res://Assets/Faces/face1a.png" id="5_nqe2f"]
+[ext_resource type="Texture2D" uid="uid://co0k7i202dnoi" path="res://Assets/Faces/face1b.png" id="6_a0yyy"]
+[ext_resource type="Texture2D" uid="uid://4pyn8iyimy24" path="res://Assets/Faces/face5.png" id="7_gxoqs"]
+[ext_resource type="Texture2D" uid="uid://dvj0vxj613lv8" path="res://Assets/Faces/face5a.png" id="8_t7fc1"]
+[ext_resource type="Texture2D" uid="uid://84rutjrpffxa" path="res://Assets/Faces/face5b.png" id="9_85b17"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xhnuw")
+}],
+"loop": true,
+"name": &"hit_0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jy5gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_5piv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_h54rl")
+}],
+"loop": true,
+"name": &"idle_0",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_3mv1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nqe2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a0yyy")
+}],
+"loop": true,
+"name": &"move_0",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_gxoqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_t7fc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_85b17")
+}],
+"loop": true,
+"name": &"run_0",
+"speed": 5.0
+}]
